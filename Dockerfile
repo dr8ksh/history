@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/dr8k/schoolmath.git
+RUN git clone https://github.com/dr8ksh/schoolmath.git
 
 WORKDIR /schoolmath
 
